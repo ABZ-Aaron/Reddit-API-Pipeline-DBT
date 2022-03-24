@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: text_posts
+    description: Reddit Data with Full Text column
+    columns:
+      - name: id
+        description: Reddit ID of Post
+        tests:
+          - not_null
+      - name: title
+        description: Title of Reddit Post
+      - name: text
+        description: Body Text of Reddit Post
+      - name: score
+        description: Score of Reddit Post
+      - name: comments
+        description: Number of Comments for Post
+      - name: url
+        description: Full URL of Reddit Post
+      - name: comment
+        description: Top comment for Reddit Post
+      - name: date
+        description: Date Reddit Data was Downloaded
