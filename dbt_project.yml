@@ -34,6 +34,3 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   reddit_project:
     materialized: table
-    # Applies to all files under models/example/
-    example:
-      materialized: view
