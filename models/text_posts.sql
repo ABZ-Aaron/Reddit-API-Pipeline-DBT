@@ -5,6 +5,7 @@ SELECT id,
        comment,
        comments
        score,
-       date,
+       dateposted,
+       dateexecuted,
        (title || ' ' || comment || ' ' || text) full_text
 FROM dev.public.reddit
