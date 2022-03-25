@@ -3,7 +3,7 @@ SELECT id,
        text, 
        url,
        comment,
-       comments
+       comments,
        score,
        dateposted,
        dateexecuted,
