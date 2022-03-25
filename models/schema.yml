@@ -20,5 +20,7 @@ models:
         description: Full URL of Reddit Post
       - name: comment
         description: Top comment for Reddit Post
-      - name: date
+      - name: dateposted
         description: Date Reddit Data was Downloaded
+      - name: dateexecuted
+        description: Date Reddit Post was made
