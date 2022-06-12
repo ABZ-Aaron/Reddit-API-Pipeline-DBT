@@ -21,6 +21,4 @@ models:
       - name: comment
         description: Top comment for Reddit Post
       - name: dateposted
-        description: Date Reddit Data was Downloaded
-      - name: dateexecuted
-        description: Date Reddit Post was made
+        description: Date Reddit Data was posted
