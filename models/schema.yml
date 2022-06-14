@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: text_posts
-    description: Reddit Data with Full Text column
+  - name: reddit_transformed
+    description: Transformed Reddit Data
     columns:
       - name: id
         description: Reddit ID of Post
@@ -10,15 +10,23 @@ models:
           - not_null
       - name: title
         description: Title of Reddit Post
-      - name: text
-        description: Body Text of Reddit Post
+      - name: num_comments
+        description: Number of comments for post
       - name: score
-        description: Score of Reddit Post
-      - name: comments
-        description: Number of Comments for Post
+        description: Score of Reddit post
+      - name: author
+        description: Author of Reddit post
+      - name: created_utc
+        description: UTC data when Reddit post was posted
       - name: url
-        description: Full URL of Reddit Post
-      - name: comment
-        description: Top comment for Reddit Post
-      - name: dateposted
-        description: Date Reddit Data was posted
+        description: URL of Reddit post
+      - name: upvote_ratio
+        description: Ratio of upvotes for Reddit post
+      - name: over_18
+        description: Whether post was flagged as over 18 or not
+      - name: edited
+        description: Whether post was edited or not
+      - name: spoiler 
+        description: Whether post was flagged as a spoiler or not
+      - name: stickied 
+        description: Whether post was stickied or not
